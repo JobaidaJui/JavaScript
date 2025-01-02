@@ -18,9 +18,9 @@ if( mark >= 90 ){
 // p-02
 
 let time = 5;
-if( time > 12){
+if( time < 12){
     console.log(` ${time} good morning`)
-}else if( time >=12 && time >17){
+}else if( time >=12 && time <17){
     console.log(`${time} good evening`)
 }else{
     console.log(`${time} good night`)
